@@ -43,5 +43,5 @@ def find_empty_in_tests(obj):
 
 find_value_by_id(valuesParsed)
 find_empty_in_tests(testsParsed)
-with open('report.json', 'w') as fp:
+with open('../report.json', 'w') as fp:
     json.dump(testsParsed, fp,  indent=1)
